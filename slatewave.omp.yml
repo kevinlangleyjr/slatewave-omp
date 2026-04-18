@@ -93,10 +93,10 @@ blocks:
         foreground: "#ecfeff"
         powerline_symbol: 
         properties:
-          charged_icon: " "
+          charged_icon: " "
           charging_icon: " "
-          discharging_icon: " "
-          not_charging_icon: 
+          discharging_icon: " "
+          not_charging_icon: 
         style: powerline
         template: ' {{ if .Error }}%{{ else }}{{ if not (and (ge .Percentage 100) (or (eq .State.String "Full") (eq .State.String "Charging") (eq .State.String "Not Charging"))) }}{{ .Icon }}{{ .Percentage }}%{{ end }}{{ end }} '
         type: battery
