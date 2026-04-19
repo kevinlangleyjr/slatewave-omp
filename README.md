@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/logo.png" alt="Slatewave logo" width="400">
+</p>
+
 # Slatewave (oh-my-posh)
 
 A two-line oh-my-posh prompt on a warm-gray foundation with a teal signature. Designed as a twin to the [Slatewave VSCode theme](https://github.com/kevinlangleyjr/vscode-slatewave) — the prompt and editor share a single color vocabulary, so the integrated terminal and editor chrome read as one continuous surface.
