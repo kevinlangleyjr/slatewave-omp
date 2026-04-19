@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="docs/logo.png" alt="Slatewave logo" width="400">
-</p>
+<div align="center">
+
+<img src="docs/logo.png" alt="Slatewave logo" width="400" />
 
 # Slatewave (oh-my-posh)
 
@@ -8,13 +8,9 @@ A two-line oh-my-posh prompt on a warm-gray foundation with a teal signature. De
 
 > _Slate below, teal above._
 
----
+![Slatewave prompt preview](docs/preview.png)
 
-## Preview
-
-_(add screenshot: `docs/preview.png`)_
-
-A good preview shot captures: a clean repo (git segment teal), a dirty repo (rose), the right-side execution time + battery + clock, and the second-line prompt ready for input.
+</div>
 
 ---
 
