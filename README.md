@@ -174,4 +174,4 @@ After editing, `exec zsh` (or open a new pane) to reload.
 
 ## License
 
-MIT
+[WTFPL](LICENSE) — Do What The Fuck You Want To Public License, Version 2.
