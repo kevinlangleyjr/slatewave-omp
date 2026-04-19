@@ -80,18 +80,18 @@ Warm-neutral grays that stay readable against any segment foreground. Matches th
 
 | Segment | Shows | Foreground | Background |
 |---|---|---|---|
-| OS | platform icon | `#e2e8f0` | `#3e4451` |
-| Path | `agnoster_short`, 2-dir max | `#5eead4` | `#2c313a` |
-| Git | branch + ahead/behind + working/staging counts + stash count | `#193549` | `#38bdf8` / `#fb7185` / `#B388FF` / `#ff4500` |
-| CMake | version when `CMakeLists.txt` present | `#ecfeff` | `#0f766e` |
-| Python | version + virtualenv | `#5eead4` | `#3e4451` |
-| Java | version | `#5eead4` | `#2c313a` |
-| Execution time | `austin`-formatted duration of last command | `#cbd5e1` | _(transparent)_ |
-| Battery | icon + percentage, hides at 100% on AC | `#ecfeff` | `#0e7490` charging / `#b45309` discharging |
-| CPU | physical percent used | `#94a3b8` | `#3e4451` |
-| RAM | used/total GB | `#94a3b8` | `#3e4451` |
-| Clock | 12-hour local time | `#5eead4` | `#2c313a` |
-| Exit code | prompt caret | `#5eead4` success / `#ef5350` error | _(transparent)_ |
+| OS | platform icon | `#e2e8f0` ![#e2e8f0](https://placehold.co/20x20/e2e8f0/e2e8f0.png) | `#3e4451` ![#3e4451](https://placehold.co/20x20/3e4451/3e4451.png) |
+| Path | `agnoster_short`, 2-dir max | `#5eead4` ![#5eead4](https://placehold.co/20x20/5eead4/5eead4.png) | `#2c313a` ![#2c313a](https://placehold.co/20x20/2c313a/2c313a.png) |
+| Git | branch + ahead/behind + working/staging counts + stash count | `#193549` ![#193549](https://placehold.co/20x20/193549/193549.png) | `#38bdf8` ![#38bdf8](https://placehold.co/20x20/38bdf8/38bdf8.png) / `#fb7185` ![#fb7185](https://placehold.co/20x20/fb7185/fb7185.png) / `#B388FF` ![#B388FF](https://placehold.co/20x20/B388FF/B388FF.png) / `#ff4500` ![#ff4500](https://placehold.co/20x20/ff4500/ff4500.png) |
+| CMake | version when `CMakeLists.txt` present | `#ecfeff` ![#ecfeff](https://placehold.co/20x20/ecfeff/ecfeff.png) | `#0f766e` ![#0f766e](https://placehold.co/20x20/0f766e/0f766e.png) |
+| Python | version + virtualenv | `#5eead4` ![#5eead4](https://placehold.co/20x20/5eead4/5eead4.png) | `#3e4451` ![#3e4451](https://placehold.co/20x20/3e4451/3e4451.png) |
+| Java | version | `#5eead4` ![#5eead4](https://placehold.co/20x20/5eead4/5eead4.png) | `#2c313a` ![#2c313a](https://placehold.co/20x20/2c313a/2c313a.png) |
+| Execution time | `austin`-formatted duration of last command | `#cbd5e1` ![#cbd5e1](https://placehold.co/20x20/cbd5e1/cbd5e1.png) | _(transparent)_ |
+| Battery | icon + percentage, hides at 100% on AC | `#ecfeff` ![#ecfeff](https://placehold.co/20x20/ecfeff/ecfeff.png) | `#0e7490` ![#0e7490](https://placehold.co/20x20/0e7490/0e7490.png) charging / `#b45309` ![#b45309](https://placehold.co/20x20/b45309/b45309.png) discharging |
+| CPU | physical percent used | `#94a3b8` ![#94a3b8](https://placehold.co/20x20/94a3b8/94a3b8.png) | `#3e4451` ![#3e4451](https://placehold.co/20x20/3e4451/3e4451.png) |
+| RAM | used/total GB | `#94a3b8` ![#94a3b8](https://placehold.co/20x20/94a3b8/94a3b8.png) | `#3e4451` ![#3e4451](https://placehold.co/20x20/3e4451/3e4451.png) |
+| Clock | 12-hour local time | `#5eead4` ![#5eead4](https://placehold.co/20x20/5eead4/5eead4.png) | `#2c313a` ![#2c313a](https://placehold.co/20x20/2c313a/2c313a.png) |
+| Exit code | prompt caret | `#5eead4` ![#5eead4](https://placehold.co/20x20/5eead4/5eead4.png) success / `#ef5350` ![#ef5350](https://placehold.co/20x20/ef5350/ef5350.png) error | _(transparent)_ |
 
 ---
 
