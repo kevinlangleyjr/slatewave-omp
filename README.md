@@ -147,15 +147,15 @@ Slatewave ships as a matched pair:
 
 Color-to-role mapping across both:
 
-| Prompt role | VSCode role |
-|---|---|
-| git clean | keywords, tags, info diagnostics, links |
-| git ahead / behind | storage (`const`/`let`/`function`), decorators-adjacent |
-| git dirty | numbers, constants, modified files, errors |
-| battery charging | remote status bar |
-| battery discharging | warning status bar |
-| exit ≠ 0 | editor error foreground |
-| path / python / java / clock | primary accent (cursor, active tab, strings) |
+| | Hex | Prompt role | VSCode role |
+|---|---|---|---|
+| ![#38bdf8](https://placehold.co/20x20/38bdf8/38bdf8.png) | `#38bdf8` | git clean | keywords, tags, info diagnostics, links |
+| ![#B388FF](https://placehold.co/20x20/B388FF/B388FF.png) | `#B388FF` | git ahead / behind | storage (`const`/`let`/`function`), decorators-adjacent |
+| ![#fb7185](https://placehold.co/20x20/fb7185/fb7185.png) | `#fb7185` | git dirty | numbers, constants, modified files, errors |
+| ![#0e7490](https://placehold.co/20x20/0e7490/0e7490.png) | `#0e7490` | battery charging | remote status bar |
+| ![#b45309](https://placehold.co/20x20/b45309/b45309.png) | `#b45309` | battery discharging | warning status bar |
+| ![#ef5350](https://placehold.co/20x20/ef5350/ef5350.png) | `#ef5350` | exit ≠ 0 | editor error foreground |
+| ![#5eead4](https://placehold.co/20x20/5eead4/5eead4.png) | `#5eead4` | path / python / java / clock | primary accent (cursor, active tab, strings) |
 
 ---
 
