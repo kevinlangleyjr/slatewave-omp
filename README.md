@@ -139,11 +139,12 @@ curl -fsSL https://raw.githubusercontent.com/kevinlangleyjr/slatewave-omp/main/s
 
 ---
 
-## Companion VSCode theme
+## Companion themes
 
-Slatewave ships as a matched pair:
+Slatewave is one palette, three surfaces. Run all three and your editor, terminal, and notes speak the same visual language.
 
-- **[vscode-slatewave](https://github.com/kevinlangleyjr/vscode-slatewave)** — editor theme using the same palette. The integrated terminal's ANSI colors are wired to this prompt's segment colors, so the prompt renders identically inside VSCode and outside.
+- **[vscode-slatewave](https://github.com/kevinlangleyjr/vscode-slatewave)** — VSCode editor theme using the same palette. The integrated terminal's ANSI colors are wired to this prompt's segment colors, so the prompt renders identically inside VSCode and outside.
+- **[obsidian-slatewave](https://github.com/kevinlangleyjr/obsidian-slatewave)** — Obsidian theme sharing the same slate foundation and teal signature.
 
 Color-to-role mapping across both:
 
