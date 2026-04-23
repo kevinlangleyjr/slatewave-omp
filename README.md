@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="docs/logo.png" alt="Slatewave logo" width="840" />
+<img src="docs/logo.png" alt="Slatewave" width="840" />
 
-# Slatewave (oh-my-posh)
+# Slatewave (Oh My Posh)
 
-A two-line oh-my-posh prompt on a warm-gray foundation with a teal signature. Designed as a twin to the [Slatewave VSCode theme](https://github.com/kevinlangleyjr/vscode-slatewave) — the prompt and editor share a single color vocabulary, so the integrated terminal and editor chrome read as one continuous surface.
+A two-line [Oh My Posh](https://ohmyposh.dev) prompt on a warm-gray foundation with a teal signature. Part of the [Slatewave family](#slatewave-family) — one palette across editors, terminals, prompts, notes, and more.
 
 > _Slate below, teal above._
 
@@ -19,7 +19,7 @@ A two-line oh-my-posh prompt on a warm-gray foundation with a teal signature. De
 Two lines, three zones:
 
 ```
-╭─  ~ / path    main  ≡   2    1                          3.2s  83%   CPU: 12% | RAM: 4/16GB      3:04 PM 
+╭─  ~ / path    main  ≡   2    1                          3.2s  83%   CPU: 12% | RAM: 4/16GB      3:04 PM
 ╰─❯$
 ```
 
@@ -35,63 +35,63 @@ Two lines, three zones:
 
 Warm-neutral grays that stay readable against any segment foreground. Matches the Slatewave VSCode theme's editor/sidebar scale so prompt and editor feel continuous.
 
-| | Hex | Used by |
-|---|---|---|
+|                                                          | Hex       | Used by                   |
+| -------------------------------------------------------- | --------- | ------------------------- |
 | ![#2c313a](https://placehold.co/20x20/2c313a/2c313a.png) | `#2c313a` | path, python, java, clock |
-| ![#3e4451](https://placehold.co/20x20/3e4451/3e4451.png) | `#3e4451` | OS icon, CPU / RAM |
+| ![#3e4451](https://placehold.co/20x20/3e4451/3e4451.png) | `#3e4451` | OS icon, CPU / RAM        |
 
 ### Signature — teal
 
-| | Hex | Used by |
-|---|---|---|
+|                                                          | Hex       | Used by                                                   |
+| -------------------------------------------------------- | --------- | --------------------------------------------------------- |
 | ![#5eead4](https://placehold.co/20x20/5eead4/5eead4.png) | `#5eead4` | path fg, python fg, java fg, clock fg, second-line prompt |
-| ![#0f766e](https://placehold.co/20x20/0f766e/0f766e.png) | `#0f766e` | cmake segment bg |
-| ![#ecfeff](https://placehold.co/20x20/ecfeff/ecfeff.png) | `#ecfeff` | cmake fg, battery fg |
+| ![#0f766e](https://placehold.co/20x20/0f766e/0f766e.png) | `#0f766e` | cmake segment bg                                          |
+| ![#ecfeff](https://placehold.co/20x20/ecfeff/ecfeff.png) | `#ecfeff` | cmake fg, battery fg                                      |
 
 ### Git states
 
-| | Hex | Meaning |
-|---|---|---|
-| ![#38bdf8](https://placehold.co/20x20/38bdf8/38bdf8.png) | `#38bdf8` | clean branch |
-| ![#fb7185](https://placehold.co/20x20/fb7185/fb7185.png) | `#fb7185` | working / staging changes |
-| ![#B388FF](https://placehold.co/20x20/B388FF/B388FF.png) | `#B388FF` | ahead or behind upstream |
+|                                                          | Hex       | Meaning                              |
+| -------------------------------------------------------- | --------- | ------------------------------------ |
+| ![#38bdf8](https://placehold.co/20x20/38bdf8/38bdf8.png) | `#38bdf8` | clean branch                         |
+| ![#fb7185](https://placehold.co/20x20/fb7185/fb7185.png) | `#fb7185` | working / staging changes            |
+| ![#B388FF](https://placehold.co/20x20/B388FF/B388FF.png) | `#B388FF` | ahead or behind upstream             |
 | ![#ff4500](https://placehold.co/20x20/ff4500/ff4500.png) | `#ff4500` | diverged (both ahead **and** behind) |
-| ![#193549](https://placehold.co/20x20/193549/193549.png) | `#193549` | fg on light git segment |
+| ![#193549](https://placehold.co/20x20/193549/193549.png) | `#193549` | fg on light git segment              |
 
 ### Battery & system
 
-| | Hex | Meaning |
-|---|---|---|
+|                                                          | Hex       | Meaning                 |
+| -------------------------------------------------------- | --------- | ----------------------- |
 | ![#0e7490](https://placehold.co/20x20/0e7490/0e7490.png) | `#0e7490` | battery charging / full |
-| ![#b45309](https://placehold.co/20x20/b45309/b45309.png) | `#b45309` | battery discharging |
-| ![#94a3b8](https://placehold.co/20x20/94a3b8/94a3b8.png) | `#94a3b8` | CPU / RAM text |
-| ![#cbd5e1](https://placehold.co/20x20/cbd5e1/cbd5e1.png) | `#cbd5e1` | execution time |
+| ![#b45309](https://placehold.co/20x20/b45309/b45309.png) | `#b45309` | battery discharging     |
+| ![#94a3b8](https://placehold.co/20x20/94a3b8/94a3b8.png) | `#94a3b8` | CPU / RAM text          |
+| ![#cbd5e1](https://placehold.co/20x20/cbd5e1/cbd5e1.png) | `#cbd5e1` | execution time          |
 
 ### Status
 
-| | Hex | Meaning |
-|---|---|---|
+|                                                          | Hex       | Meaning                               |
+| -------------------------------------------------------- | --------- | ------------------------------------- |
 | ![#5eead4](https://placehold.co/20x20/5eead4/5eead4.png) | `#5eead4` | last command succeeded (prompt caret) |
-| ![#ef5350](https://placehold.co/20x20/ef5350/ef5350.png) | `#ef5350` | last command exited non-zero |
+| ![#ef5350](https://placehold.co/20x20/ef5350/ef5350.png) | `#ef5350` | last command exited non-zero          |
 
 ---
 
 ## Segments in detail
 
-| Segment | Shows | Foreground | Background |
-|---|---|---|---|
-| OS | platform icon | `#e2e8f0` ![#e2e8f0](https://placehold.co/20x20/e2e8f0/e2e8f0.png) | `#3e4451` ![#3e4451](https://placehold.co/20x20/3e4451/3e4451.png) |
-| Path | `agnoster_short`, 2-dir max | `#5eead4` ![#5eead4](https://placehold.co/20x20/5eead4/5eead4.png) | `#2c313a` ![#2c313a](https://placehold.co/20x20/2c313a/2c313a.png) |
-| Git | branch + ahead/behind + working/staging counts + stash count | `#193549` ![#193549](https://placehold.co/20x20/193549/193549.png) | `#38bdf8` ![#38bdf8](https://placehold.co/20x20/38bdf8/38bdf8.png) / `#fb7185` ![#fb7185](https://placehold.co/20x20/fb7185/fb7185.png) / `#B388FF` ![#B388FF](https://placehold.co/20x20/B388FF/B388FF.png) / `#ff4500` ![#ff4500](https://placehold.co/20x20/ff4500/ff4500.png) |
-| CMake | version when `CMakeLists.txt` present | `#ecfeff` ![#ecfeff](https://placehold.co/20x20/ecfeff/ecfeff.png) | `#0f766e` ![#0f766e](https://placehold.co/20x20/0f766e/0f766e.png) |
-| Python | version + virtualenv | `#5eead4` ![#5eead4](https://placehold.co/20x20/5eead4/5eead4.png) | `#3e4451` ![#3e4451](https://placehold.co/20x20/3e4451/3e4451.png) |
-| Java | version | `#5eead4` ![#5eead4](https://placehold.co/20x20/5eead4/5eead4.png) | `#2c313a` ![#2c313a](https://placehold.co/20x20/2c313a/2c313a.png) |
-| Execution time | `austin`-formatted duration of last command | `#cbd5e1` ![#cbd5e1](https://placehold.co/20x20/cbd5e1/cbd5e1.png) | _(transparent)_ |
-| Battery | icon + percentage, hides at 100% on AC | `#ecfeff` ![#ecfeff](https://placehold.co/20x20/ecfeff/ecfeff.png) | `#0e7490` ![#0e7490](https://placehold.co/20x20/0e7490/0e7490.png) charging / `#b45309` ![#b45309](https://placehold.co/20x20/b45309/b45309.png) discharging |
-| CPU | physical percent used | `#94a3b8` ![#94a3b8](https://placehold.co/20x20/94a3b8/94a3b8.png) | `#3e4451` ![#3e4451](https://placehold.co/20x20/3e4451/3e4451.png) |
-| RAM | used/total GB | `#94a3b8` ![#94a3b8](https://placehold.co/20x20/94a3b8/94a3b8.png) | `#3e4451` ![#3e4451](https://placehold.co/20x20/3e4451/3e4451.png) |
-| Clock | 12-hour local time | `#5eead4` ![#5eead4](https://placehold.co/20x20/5eead4/5eead4.png) | `#2c313a` ![#2c313a](https://placehold.co/20x20/2c313a/2c313a.png) |
-| Exit code | prompt caret | `#5eead4` ![#5eead4](https://placehold.co/20x20/5eead4/5eead4.png) success / `#ef5350` ![#ef5350](https://placehold.co/20x20/ef5350/ef5350.png) error | _(transparent)_ |
+| Segment        | Shows                                                        | Foreground                                                                                                                                            | Background                                                                                                                                                                                                                                                                        |
+| -------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| OS             | platform icon                                                | `#e2e8f0` ![#e2e8f0](https://placehold.co/20x20/e2e8f0/e2e8f0.png)                                                                                    | `#3e4451` ![#3e4451](https://placehold.co/20x20/3e4451/3e4451.png)                                                                                                                                                                                                                |
+| Path           | `agnoster_short`, 2-dir max                                  | `#5eead4` ![#5eead4](https://placehold.co/20x20/5eead4/5eead4.png)                                                                                    | `#2c313a` ![#2c313a](https://placehold.co/20x20/2c313a/2c313a.png)                                                                                                                                                                                                                |
+| Git            | branch + ahead/behind + working/staging counts + stash count | `#193549` ![#193549](https://placehold.co/20x20/193549/193549.png)                                                                                    | `#38bdf8` ![#38bdf8](https://placehold.co/20x20/38bdf8/38bdf8.png) / `#fb7185` ![#fb7185](https://placehold.co/20x20/fb7185/fb7185.png) / `#B388FF` ![#B388FF](https://placehold.co/20x20/B388FF/B388FF.png) / `#ff4500` ![#ff4500](https://placehold.co/20x20/ff4500/ff4500.png) |
+| CMake          | version when `CMakeLists.txt` present                        | `#ecfeff` ![#ecfeff](https://placehold.co/20x20/ecfeff/ecfeff.png)                                                                                    | `#0f766e` ![#0f766e](https://placehold.co/20x20/0f766e/0f766e.png)                                                                                                                                                                                                                |
+| Python         | version + virtualenv                                         | `#5eead4` ![#5eead4](https://placehold.co/20x20/5eead4/5eead4.png)                                                                                    | `#3e4451` ![#3e4451](https://placehold.co/20x20/3e4451/3e4451.png)                                                                                                                                                                                                                |
+| Java           | version                                                      | `#5eead4` ![#5eead4](https://placehold.co/20x20/5eead4/5eead4.png)                                                                                    | `#2c313a` ![#2c313a](https://placehold.co/20x20/2c313a/2c313a.png)                                                                                                                                                                                                                |
+| Execution time | `austin`-formatted duration of last command                  | `#cbd5e1` ![#cbd5e1](https://placehold.co/20x20/cbd5e1/cbd5e1.png)                                                                                    | _(transparent)_                                                                                                                                                                                                                                                                   |
+| Battery        | icon + percentage, hides at 100% on AC                       | `#ecfeff` ![#ecfeff](https://placehold.co/20x20/ecfeff/ecfeff.png)                                                                                    | `#0e7490` ![#0e7490](https://placehold.co/20x20/0e7490/0e7490.png) charging / `#b45309` ![#b45309](https://placehold.co/20x20/b45309/b45309.png) discharging                                                                                                                      |
+| CPU            | physical percent used                                        | `#94a3b8` ![#94a3b8](https://placehold.co/20x20/94a3b8/94a3b8.png)                                                                                    | `#3e4451` ![#3e4451](https://placehold.co/20x20/3e4451/3e4451.png)                                                                                                                                                                                                                |
+| RAM            | used/total GB                                                | `#94a3b8` ![#94a3b8](https://placehold.co/20x20/94a3b8/94a3b8.png)                                                                                    | `#3e4451` ![#3e4451](https://placehold.co/20x20/3e4451/3e4451.png)                                                                                                                                                                                                                |
+| Clock          | 12-hour local time                                           | `#5eead4` ![#5eead4](https://placehold.co/20x20/5eead4/5eead4.png)                                                                                    | `#2c313a` ![#2c313a](https://placehold.co/20x20/2c313a/2c313a.png)                                                                                                                                                                                                                |
+| Exit code      | prompt caret                                                 | `#5eead4` ![#5eead4](https://placehold.co/20x20/5eead4/5eead4.png) success / `#ef5350` ![#ef5350](https://placehold.co/20x20/ef5350/ef5350.png) error | _(transparent)_                                                                                                                                                                                                                                                                   |
 
 ---
 
@@ -114,16 +114,19 @@ git clone https://github.com/kevinlangleyjr/slatewave-omp.git \
 Then add to your shell init:
 
 **zsh** (`~/.zshrc`):
+
 ```sh
 eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/slatewave-omp/slatewave.omp.yml)"
 ```
 
 **bash** (`~/.bashrc`):
+
 ```sh
 eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/slatewave-omp/slatewave.omp.yml)"
 ```
 
 **fish** (`~/.config/fish/config.fish`):
+
 ```fish
 oh-my-posh init fish --config ~/.config/oh-my-posh/slatewave-omp/slatewave.omp.yml | source
 ```
@@ -139,24 +142,19 @@ curl -fsSL https://raw.githubusercontent.com/kevinlangleyjr/slatewave-omp/main/s
 
 ---
 
-## Companion themes
+## Slatewave family
 
-Slatewave is one palette, three surfaces. Run all three and your editor, terminal, and notes speak the same visual language.
+One palette. Every tool.
 
-- **[vscode-slatewave](https://github.com/kevinlangleyjr/vscode-slatewave)** — VSCode editor theme using the same palette. The integrated terminal's ANSI colors are wired to this prompt's segment colors, so the prompt renders identically inside VSCode and outside.
-- **[obsidian-slatewave](https://github.com/kevinlangleyjr/obsidian-slatewave)** — Obsidian theme sharing the same slate foundation and teal signature.
+- **Editors** — [VSCode](https://github.com/kevinlangleyjr/vscode-slatewave) · [Neovim](https://github.com/kevinlangleyjr/neovim-slatewave) · [Helix](https://github.com/kevinlangleyjr/helix-slatewave) · [Zed](https://github.com/kevinlangleyjr/zed-slatewave) · [Sublime Text](https://github.com/kevinlangleyjr/sublime-text-slatewave) · [JetBrains](https://github.com/kevinlangleyjr/jetbrains-slatewave)
+- **Terminals** — [Alacritty](https://github.com/kevinlangleyjr/alacritty-slatewave) · [Ghostty](https://github.com/kevinlangleyjr/ghostty-slatewave) · [iTerm2](https://github.com/kevinlangleyjr/iterm2-slatewave) · [WezTerm](https://github.com/kevinlangleyjr/wezterm-slatewave) · [Windows Terminal](https://github.com/kevinlangleyjr/windows-terminal-slatewave)
+- **Prompt** — [Starship](https://github.com/kevinlangleyjr/starship-slatewave)
+- **Multiplexer** — [tmux](https://github.com/kevinlangleyjr/tmux-slatewave)
+- **Notes** — [Obsidian](https://github.com/kevinlangleyjr/obsidian-slatewave) · [Logseq](https://github.com/kevinlangleyjr/logseq-slatewave)
+- **Launchers** — [Alfred](https://github.com/kevinlangleyjr/alfred-slatewave) · [Raycast](https://github.com/kevinlangleyjr/raycast-slatewave)
+- **Chat** — [Slack](https://github.com/kevinlangleyjr/slack-slatewave)
 
-Color-to-role mapping across both:
-
-| | Hex | Prompt role | VSCode role |
-|---|---|---|---|
-| ![#38bdf8](https://placehold.co/20x20/38bdf8/38bdf8.png) | `#38bdf8` | git clean | keywords, tags, info diagnostics, links |
-| ![#B388FF](https://placehold.co/20x20/B388FF/B388FF.png) | `#B388FF` | git ahead / behind | storage (`const`/`let`/`function`), decorators-adjacent |
-| ![#fb7185](https://placehold.co/20x20/fb7185/fb7185.png) | `#fb7185` | git dirty | numbers, constants, modified files, errors |
-| ![#0e7490](https://placehold.co/20x20/0e7490/0e7490.png) | `#0e7490` | battery charging | remote status bar |
-| ![#b45309](https://placehold.co/20x20/b45309/b45309.png) | `#b45309` | battery discharging | warning status bar |
-| ![#ef5350](https://placehold.co/20x20/ef5350/ef5350.png) | `#ef5350` | exit ≠ 0 | editor error foreground |
-| ![#5eead4](https://placehold.co/20x20/5eead4/5eead4.png) | `#5eead4` | path / python / java / clock | primary accent (cursor, active tab, strings) |
+See [getslatewave.com](https://getslatewave.com) for the full family.
 
 ---
 
