@@ -86,11 +86,11 @@ blocks:
         style: plain
         template: "  {{ .FormattedMs }} "
         type: executiontime
-      - background: "#0e7490"
+      - background: "#fb7185"
         background_templates:
-          - '{{if eq "Charging" .State.String}}#0e7490{{end}}'
-          - '{{if eq "Discharging" .State.String}}#b45309{{end}}'
-        foreground: "#ecfeff"
+          - '{{if eq "Charging" .State.String}}#fb7185{{end}}'
+          - '{{if eq "Discharging" .State.String}}#fb7185{{end}}'
+        foreground: "#193549"
         powerline_symbol: 
         properties:
           charged_icon: " "
